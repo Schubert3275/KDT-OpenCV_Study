@@ -43,12 +43,29 @@
 > -   히스토그램
 
 </details>
+<details>
+<summary> struct 모듈 </summary>
+
+> -   C언어의 struct를 구현한 모듈
+> -   바이너리 데이터 처리
+
+</details>
+<details>
+<summary> os 모듈 </summary>
+
+> -   경로, 파일, 폴더 등등 운영체제 시스템, 파일 시스템 관련 함수, 클래스 제공
+> -   폴더 내 모든 폴더 및 파일 리스트 추출 os.listdir
+> -   폴더 내 특정 확장자 파일 리스트 추출 os.path.splitext
+
+</details>
 
 ---
 
 | 파일명                       | 내용                   |
 | ---------------------------- | ---------------------- |
 | `DAY_01\ex_mnist_data.ipynb` | Row 이미지 데이터 추출 |
+| `DAY_01\ex_dir_path.ipynb`   | os 모듈 활용           |
+| `DAY_01\ex_numpy.ipynb`      | 넘파이 기초            |
 
 #### DAY01 실습과제
 
