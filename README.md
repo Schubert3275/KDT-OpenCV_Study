@@ -87,14 +87,41 @@
 > -   이미지 데이터 채널 분리 : cv2.split()
 > -   이미지 데이터 채널 병합 : cv2.merge()
 > -   이미지 색 공간 변환 : cv2.cvtColor()
+> -   이미지 크기 변경 : cv2.resize()
+
+</details>
+<details>
+<summary> 그리기 함수 </summary>
+
+> -   선 그리기 함수 : cv2.line()
+> -   사각형 그리기 함수 : cv2.rectangle()
+> -   다각형 그리기 함수 : cv2.polylines()
+> -   원 그리기 함수 : cv2.circle()
+> -   타원 그리기 함수 : cv2.ellipse()
+> -   글자 쓰기 함수 : cv2.putText()
+
+</details>
+<details>
+<summary> 얼굴인식 </summary>
+
+> -   객체 인식 모델 로딩 : cv2.CascadeClassifier.load()
+> -   객체 검출 : cv2.CascadeClassifier.detectMultiScale()
+
+</details>
+<details>
+<summary> CNN </summary>
+
+> -   합성곱신경망(Convolutional Neural Network) : 이미지 분류, 인식, 검출 등 이미지 기반 분야 활용
+> -   커널/필터/마스크 : 이미지 위에서 일정 간격으로 이동하며 특징을 추출
+> -   스트라이드 : 커널의 이동 방향 및 크기
 
 </details>
 
 ---
 
-| 파일명 | 내용 |
-| ------ | ---- |
-| ``     |      |
+| 파일명                 | 내용        |
+| ---------------------- | ----------- |
+| `DAY_02\ex_cv_1.ipynb` | OpenCV 실습 |
 
 #### DAY02 실습과제
 
