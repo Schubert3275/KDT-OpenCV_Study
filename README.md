@@ -72,3 +72,32 @@
 ---
 
     1. 알파벳 빈도를 통해서 입력 문장의 언어 분석
+
+### DAY02
+
+---
+
+<details>
+<summary> OpenCV 기본 함수 </summary>
+
+> -   이미지 데이터 읽기 : cv2.imread()
+> -   이미지 창 출력 : cv2.imshow()
+> -   이미지 창 제어 : cv2.waitKey(), cv2.destroyAllWindows()
+> -   이미지 데이터 저장 : cv2.imwrite()
+> -   이미지 데이터 채널 분리 : cv2.split()
+> -   이미지 데이터 채널 병합 : cv2.merge()
+> -   이미지 색 공간 변환 : cv2.cvtColor()
+
+</details>
+
+---
+
+| 파일명 | 내용 |
+| ------ | ---- |
+| ``     |      |
+
+#### DAY02 실습과제
+
+---
+
+    1.
