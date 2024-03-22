@@ -114,6 +114,28 @@
 > -   합성곱신경망(Convolutional Neural Network) : 이미지 분류, 인식, 검출 등 이미지 기반 분야 활용
 > -   커널/필터/마스크 : 이미지 위에서 일정 간격으로 이동하며 특징을 추출
 > -   스트라이드 : 커널의 이동 방향 및 크기
+> -   패딩 : 커널 이미지 외곽 보완 방법
+
+</details>
+<details>
+<summary> Convolution Layer </summary>
+
+> -   Conv1D : 커널 필터가 좌우로 이동
+> -   Conv2D : 커널 필터가 2차원 평면에서 이동
+> -   Conv3D : 커널 필터가 3차원 형태로 이동
+
+</details>
+<details>
+<summary> Polling Layer </summary>
+
+> -   합성곱 층(합성곱 연산 + 활성화 함수) 다음에 풀링 층 추가
+> -   다운샘플링으로 특성 맵의 크기를 줄임
+
+</details>
+<details>
+<summary> torchvision </summary>
+
+> -   파이썬에서 제공하는 이미지 처리 라이브러리
 
 </details>
 
