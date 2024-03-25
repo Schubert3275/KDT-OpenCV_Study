@@ -132,21 +132,16 @@
 > -   다운샘플링으로 특성 맵의 크기를 줄임
 
 </details>
-<details>
-<summary> torchvision </summary>
-
-> -   파이썬에서 제공하는 이미지 처리 라이브러리
-
-</details>
 
 ---
 
-| 파일명                 | 내용        |
-| ---------------------- | ----------- |
-| `DAY_02\ex_cv_1.ipynb` | OpenCV 실습 |
+| 파일명                      | 내용              |
+| --------------------------- | ----------------- |
+| `DAY_02\ex_cv_1.ipynb`      | OpenCV 실습       |
+| `DAY_02\ex_CIFAR_CNN.ipynb` | CIFAR_10 CNN 학습 |
 
 #### DAY02 실습과제
 
 ---
 
-    1.
+    1. MNIST CNN 학습
