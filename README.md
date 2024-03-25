@@ -145,3 +145,46 @@
 ---
 
     1. MNIST CNN 학습
+
+### DAY03
+
+---
+
+<details>
+<summary> Conv2d </summary>
+
+> -   kernel_size
+> -   stride
+> -   padding
+
+</details>
+<details>
+<summary> MaxPool2d </summary>
+
+> -   kernel_size
+> -   stride
+
+</details>
+<details>
+<summary> DataLoader </summary>
+
+> -   batch_size
+> -   shuffle
+> -   drop_last
+> -   sampler
+
+</details>
+
+---
+
+| 파일명                         | 내용                      |
+| ------------------------------ | ------------------------- |
+| `DAY_03\ex_CNN.ipynb`          | CNN 레이어 분석           |
+| `DAY_03\ex_iris_dataset.ipynb` | iris 데이터셋, 데이터로더 |
+| `DAY_03\ex_pillow.ipynb`       | pillow 활용               |
+
+#### DAY03 실습과제
+
+---
+
+    1.
