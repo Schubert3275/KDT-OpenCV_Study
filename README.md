@@ -188,3 +188,37 @@
 ---
 
     1. 동물 이미지 분류
+
+### DAY04
+
+---
+
+<details>
+<summary> 전이학습 </summary>
+
+> -   기존 학습된 모델이 축적한 지식 활용
+> -   데이터 부족 문제 해결/학습 시간 단축/성능 향상
+> -   작은 데이터셋 학습 시 오버피팅 예방
+
+</details>
+<details>
+<summary> 특성 추출 </summary>
+
+> -   사전 훈련된 모델 가져와 마지막 완전연결측 부분만 새로 학습
+> -   사전 훈련된 네트워크의 합성곱층(가중치 고정) -> 새로운 분류기에서 학습
+
+</details>
+<details>
+<summary> 모델 역할 분류 </summary>
+
+> -   Backborn Network : feature map 추출 모델 (VGG16, ResNet50, Xception, InceptionV3, MobileNet 등)
+> -   Nect : Backbone과 Head를 연결 (FPN, PAN, BiFPN, NAS-FPN 등)
+> -   Head : Backborn에서 추출한 feature map 활용해 분류 모델 학습 (YOLO, SSD, Faster R-CNN, R-FCN 등)
+
+</details>
+
+---
+
+| 파일명                   | 내용            |
+| ------------------------ | --------------- |
+| `DAY_04\ex_resnet.ipynb` | Resnet 전이학습 |
